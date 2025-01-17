@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", serif;
+}
+body {
+  background-color: #151937;
+}
+.text-gradient-1 {
+  background-image: linear-gradient(270.78deg, #ffa7a9 4.19%, #ff5ea3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-graditent-1 {
+  background-image: linear-gradient(-90deg, #ff7df2, #ff275b);
+}
+
+/* .profile {
+  --tw-text-opacity: 1;
+  color: rgb(147 51 234 / var(--tw-text-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgb(147 51 234 / var(--tw-border-opacity));
+} */
+/* .contact {
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-border-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgb(243 244 246 / var(--tw-border-opacity));
+} */
+/* .trusted-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.05;
+  padding: 1.75rem;
+}
+.trusted-h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: white;
+}
+.trusted-p {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+.trusted-i {
+  margin-top: 1.25rem;
+  display: inline-block;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+} */
